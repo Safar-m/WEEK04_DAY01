@@ -1,11 +1,8 @@
-html{
-	padding: 0 !important;
-	margin: 0 !important;
+html, body{
+	padding: 0 ;
+	margin: 0 ;
 }
-body{
-	padding: 0 !important;
-	margin: 0 !important;
-}
+
 /*common classes*/
 .textColorWhite{
 	color: white;
@@ -18,13 +15,11 @@ i{
 }
 /*main styles */
 #main{
-	width: 100%;
 	background: url("../img/main-bg.jpg");
 	background-size:cover;
       
 }
 #main .mainColor{
-
 }
 #main .mainHeight{
 	height: 100%;
@@ -38,7 +33,6 @@ i{
 #main .navbar-inverse{
 	background: transparent !important; 
 	border:none;
-
 }
 #main h4{
 	font-style: italic;
@@ -47,21 +41,17 @@ i{
 #main h1{
 	font-size: 5em;
 	font-weight: 700;
-
 }
 #main .btn{
 	background: #FED136;
 	padding: 20px;
 	border-radius: 0;
-
 }
-
 #main .content{
 	padding: 270px 0;
 }
 /* services styles*/
 #services{
-	width: 100%;
 }
 #services .mainColor{
 	background-color: #FFFFFF;
@@ -85,7 +75,6 @@ i{
 }
 /*portfolio styles*/
 #portfolio{
-
 }
 #portfolio .mainColor{
 	background-color: #EEEEEE;
@@ -107,7 +96,6 @@ i{
 	border-radius: 0;
 	border:none;
 }
-
 /*about styles*/
 #about{
 
@@ -126,7 +114,6 @@ i{
 	font-style: italic;
     color:gray;
     font-size:1,4em;
-    
 }
 #about img{
     width:200px;
@@ -153,10 +140,7 @@ i{
 }
 /*team styles*/
 #team{
-
 }
-
-
 #team .mainColor{
 	background-color: #EEEEEE;
 }
@@ -227,4 +211,3 @@ footer li:hover, #team li:hover{
 footer .row div:last-child a{
 	color: #FED136;
 }
-
